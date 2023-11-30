@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+/* creating this website as responsive for tabs/ipads and for mobiles */
+/* using media-query for mobiless */
+
+@media screen and (max-width:599px) {
+
+    /* adjusting the nav-bar */
+
+    .nav_btn .lang_btn .lang {
+        display: none;
+    }
+    .nav_btn {
+        gap: 10px;
+    }
+
+    /* adjusting the main background content section  */
+    .hero {
+        height: calc(100% - 50px);
+        gap: 17px;
+        padding: 0px 20px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .hero> :nth-child(3),
+    .hero2> :nth-child(1) {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+    /* adjusting the all boxes  */
+    .box {
+        flex-direction: column;
+        height: 160vh;
+        gap: 25px;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .imgside>img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .imgside1 video {
+        position: absolute;
+        top: 85px;
+        left: 67px;
+        width: 400px;
+    }
+
+
+
+    .box2 {
+        gap: 30px;
+    }
+
+    .box2>.contside> :nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .imgside2 {
+        position: relative;
+        order: 2;
+    }
+
+    .img_container {
+        box-sizing: border-box;
+        width: 350px;
+        height: 60px;
+        position: absolute;
+        top: 305px;
+        left: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 13px;
+        padding: 11px;
+    }
+
+    .img_container img {
+        width: 35px;
+    }
+
+
+    .box3 {
+        padding: 60px 30px;
+    }
+    .box3>.contside> :nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .imgside3 {
+        position: relative;
+    }
+
+    .imgside3 video {
+        position: absolute;
+        top: -20px;
+        left: 95px;
+        width: 310px;
+        height: 310px;
+    }
+
+    .box4 {
+        padding: 70px 30px;
+    }
+
+    .box4>.contside> :nth-child(2) {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .box4>.imgside {
+        order: 2;
+    }
+
+
+    .box5 {
+        box-sizing: border-box;
+        padding: 75px 60px;
+    }
+
+    .box5>#Questions {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .faq {
+        box-sizing: border-box;
+        width: 90vw;
+        height: 70px;
+        margin: auto;
+        padding: 30px 25px;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .faq img {
+        height: 25px;
+    }
+
+    .hero2 {
+        margin-top: 40px;
+        gap: 20px;
+        padding: 10px;
+        color: white;
+    }
+
+    .hero2> :nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .hero2 .red_btn {
+        font-size: 16px;
+    }
+
+
+    .box6 {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+
+    .input_btn {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero .input_btn input,
+    .hero2 .input_btn input {
+        width: 120px;
+        padding: 14px 360px 14px 18px;
+        opacity: 0.74;
+        background-color: black;
+        font-size: 16px;
+        font-weight: 600;
+        border: 0.3px solid rgb(219 222 225 / 40%);
+        border-radius: 5px;
+
+    }
+
+    .hero .input_btn button,
+    .hero2 .input_btn button {
+        background-color: red;
+        color: white;
+        padding: 12px 15px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        border: 0.3px solid rgba(255, 0, 0, .5);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+}

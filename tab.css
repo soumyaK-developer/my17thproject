@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+/* creating this website as responsive for tabs/ipads and for mobiles */
+/* using media-query for tabs/ipads */
+
+@media screen and (max-width:959px) {
+
+    /* adjusting the nav-bar */
+    nav {
+        width: 100vw;
+        height: 50px;
+        padding: 50px 25px;
+        box-sizing: border-box;
+    }
+    nav span img {
+        width: 100px;
+    }
+    .nav_btn {
+        gap: 10px;
+    }
+
+    /* adjusting the main background content section  */
+    .hero {
+        height: calc(100% - 50px);
+        gap: 17px;
+        padding: 0px 120px;
+    }
+    .hero> :nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .hero> :nth-child(2) {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+    .hero> :nth-child(3),
+    .hero2> :nth-child(1) {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+    /* adjusting the all boxes  */
+    .box {
+        flex-direction: column;
+        height: 150vh;
+        gap: 25px;
+        text-align: center;
+        padding: 75px 100px;
+    }
+    .contside {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contside> :nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .contside> :nth-child(2) {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .imgside>img {
+        width: 650px;
+        height: 500px;
+    }
+    .imgside1 video {
+        position: absolute;
+        top: 104px;
+        left: 86px;
+        width: 500px;
+    }
+
+
+
+    .box2 {
+        gap: 30px;
+    }
+    
+    .box2>.contside> :nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .imgside2 {
+        position: relative;
+        order: 2;
+    }
+    
+    .img_container {
+        box-sizing: border-box;
+        width: 405px;
+        height: 80px;
+        position: absolute;
+        top: 370px;
+        left: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 13px;
+        padding: 11px;
+    }
+    
+    .img_container img {
+        width: 45px;
+    }
+
+    .img_container_cont {
+        align-items: flex-start;
+    }
+
+
+    .box3>.contside> :nth-child(2) {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+    .imgside3 {
+        position: relative;
+    }
+    
+    .imgside3 video {
+        position: absolute;
+        top: 0px;
+        left: 124px;
+        width: 400px;
+        height: 373px;
+    }
+
+    .box4 {
+        padding: 75px 35px;
+    }
+    .box4>.contside> :nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .box4>.imgside {
+        order: 2;
+    }
+
+
+    .box5 {
+        box-sizing: border-box;
+        padding: 75px 60px;
+    }
+    .box5>#Questions {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .faq {
+        box-sizing: border-box;
+        width: 90vw;
+        height: 70px;
+        margin: auto;
+        padding: 30px 25px;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .faq img {
+        height: 25px;
+    }
+    .hero2 {
+        margin-top: 40px;
+        gap: 20px;
+        padding: 10px 100px;
+        color: white;
+    }
+
+    .hero2> :nth-child(1) {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .hero2 .red_btn {
+        font-size: 16px;
+    }
+
+
+    .box6 {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    
+    .link {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .netflix {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
